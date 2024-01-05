@@ -12,8 +12,11 @@ body{
     color:#fff;
     font-size: 20px;
     font-weight: 700;
-    padding:10px;
+    padding:18px;
 
+}
+#btn-downlod{
+    margin-right: 25px;
 }
 .section-title{
     color:#181818;
@@ -86,7 +89,7 @@ nav a{
 }
 /* header related style end*/
 main{
-    max-width: 1140px;
+    /* max-width: 1140px; */
     margin:0 auto;
 }
 /* main section style  */
@@ -106,7 +109,58 @@ main{
 }
 .info-title{
     font-weight: normal;
+    font-size: 20px;
 }
 .info-description{
     font-weight: 700;
+    font-size: 20px;
+}
+/* what i do related style */
+main section{
+    margin: 130px;
+}
+#what-i-do-description{
+    padding:30px 150px;
+}
+.skills-container{
+    display: flex;
+    gap:24px;
+   
+}
+.skill{
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    
+}
+.skill-description{
+    color:#474747
+
+}
+/* resume section style */
+.resume-column-title{
+    font-size: 30px;
+    color:#474747;
+    font-weight: 700;
+
+}
+.resume-container{
+    display: flex;
+    gap:50px;
+
+}
+.resume-item-institute {
+    font-weight: normal;
+    color:#D9D9D9
+}
+.resume-item-description{
+    font-weight: normal;
+}
+hr{
+    margin: 30px;
+}
+.downlod-cv{
+    text-align: center;
+    margin-top: 50px;
 }
